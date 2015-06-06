@@ -1,0 +1,33 @@
+/*基本样式------------------*/
+body,form,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,header,menu,footer,section,iframe,video,article,button{margin:0;padding:0;}
+/*html5*/
+article,aside,dialog,section,nav,figure,menu{display:block}
+div,ul,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,span,menu,footer,section,video,article,button,a{zoom:1;}
+body{background:#FFF;text-align:center;}
+html{height:100%;font-size:12px;}
+body,td,th,.wrapper{color:#fff;line-height:1.75em;}
+input,select{vertical-align:middle;line-height:normal;font-size:1em;color:#999999;}
+textarea{font-size:1em;line-height:1.75em;} 
+a{outline:0;cursor:pointer;*star:expression(this.onFocus=this.blur());}
+a:link,a:visited,a:active{color:#fff;text-decoration:none;}
+a:hover{color:#fff;text-decoration:none;}
+a.current:link,a.current:visited,a.current:active{color:#2B536C;}
+a.current:hover{color:#fff;}
+a:hover img{opacity:0.8;filter:alpha(opacity=80);}
+img{border:0;display: block;}
+h1,h2,h3,h4,h5,h6{font-size:1em;}
+p{word-break:break-all;}
+.hidden{display:none;}
+.clear{clear:both;height:0;font-size:0;line-height:0;visibility:hidden;} 
+.fl{position: relative;float:left;}
+.fr{position: relative;float:right;}
+input {
+   outline: none;
+   border-radius: 0;
+   -webkit-appearance: none;
+   }
+   /* 屏蔽文本框高亮 */
+   textarea {
+   outline: none;
+ } 
+

@@ -1,0 +1,16 @@
+
+#main{width:100%}
+header{border:1px solid #000;background:#4A94EB;}
+#content{background:#D5EAFF;border:1px solid #000;}
+footer{background:#8EC2F4;border:1px solid #000;}
+.contentHeight{height:100px;}
+
+@media screen and (max-width: 640px) {
+
+}
+@media screen and (min-width: 640px) and(max-width:1024px) {
+	
+}
+@media screen and (min-width: 1024px) {
+	#content{width:1024px;margin:0 auto;}
+}
