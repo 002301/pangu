@@ -1,9 +1,19 @@
 
-#main{width:100%}
-header{border:1px solid #000;background:#4A94EB;}
-#content{background:#D5EAFF;border:1px solid #000;}
+
+#main{width:100%;background: #000;overflow: hidden;}
+.conterCont{left:-365px;position: relative;} /* 内容居中 */
+header{width:1680px;height: 500px;background:#4A94EB;}
+nav ul{list-style: none;overflow:hidden;}
+nav ul li {float: left;margin-left: 5px;}
+
+.content{
+	width:950px; margin: 0 auto;
+	background:blue;
+
+}
 footer{background:#8EC2F4;border:1px solid #000;}
-.contentHeight{height:100px;}
+.contentHeight{}
+
 
 @media screen and (max-width: 640px) {
 
